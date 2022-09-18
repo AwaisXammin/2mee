@@ -1,19 +1,41 @@
 /* Header */
 .header {
   .navbar {
-    padding: 41px 0;
+    padding: 30px 0;
     .container-fluid {
       justify-content: end;
       //.navbar-brand {
       //  margin-right: ;
       //}
+      .navbar-brand {
+        font-family: 'Arial' !important;
+        font-size: 22px !important;
+        margin-right: 35px;
+        img {
+          margin-right: 5px;
+          margin-top: -3px;
+        }
+      }
       .nav-sign {
         background-color: #483E3E;
-        padding: 6px 15px;
+        padding: 10px 34px;
         border-radius: 30px;
         color: white;
+        font-size: 22px;
         //font-family: $menu-font;
       }
     }
   }
+}
+
+@media (max-width: 431px)
+{
+   .header .navbar .container-fluid {
+    justify-content: center;
+}
+
+   .header .navbar .container-fluid .navbar-brand {
+       margin-bottom: 20px;
+}
+
 }
