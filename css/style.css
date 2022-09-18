@@ -1230,7 +1230,7 @@ p {
 {
    .home-section-1 .content-section .heading-section h1
    {
-        font-size: 50px;
+        font-size: 48px !important;
         font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif !important;
         line-height: 1.3em !important;
    }
