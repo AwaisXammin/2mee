@@ -59,6 +59,17 @@
             object-fit: cover;
             object-position: center;
           }
+          .mute-btn {
+            #audio-control {
+              cursor: pointer;
+              padding: 10px 20px;
+              display: inline-block;
+              justify-content: end;
+              position: absolute;
+              right: 0;
+              bottom: 6px;
+            }
+          }
         }
       }
     }
