@@ -1220,7 +1220,7 @@ p {
 
 .home-section-1 .content-section .heading-section h1 {
   margin-bottom: 10px !important;
-  font-family: Arial !important;
+  font-family: Arial;
   font-size: 63px !important;
   color: #312f2f!important;
   line-height: 1.3em !important;
