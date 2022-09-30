@@ -80,8 +80,25 @@
                 <p><strong>Whilst we build out our new website book a demo below.</strong></p>
               </div>
 
-              <div class="home-button">
+              <!--<div class="home-button">
                 <button type="button" onclick="document.location='https://calendly.com/2meeplatformdemo/30?month=2022-09'">BOOK DEMO</button>
+              </div>-->
+
+              <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel">Book Demo</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe src="https://calendly.com/2meeplatformdemo/30?month=2022-10"width="100%" height="100%" seamless=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="home-button">
+               <button class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle">BOOK DEMO</button>
               </div>
             </div>
           </div>
@@ -321,5 +338,7 @@
       });
 
 </script>
+
+
   </body>
 </html>
